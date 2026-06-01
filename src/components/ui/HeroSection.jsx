@@ -17,7 +17,7 @@ const HeroSection = () => {
         {/* Left Content */}
         <Reveal direction="left" delay={0.5}>
 
-          <div className="flex flex-col items-center md:items-start relative z-10">
+          <div className="flex flex-col items-center md:items-start relative z-10 pr-8">
 
             {/* Heading */}
             <h1 className="text-center md:text-left text-5xl leading-[68px] md:text-6xl md:leading-[84px] font-medium max-w-xl text-sky-200">
