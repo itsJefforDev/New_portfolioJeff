@@ -9,6 +9,7 @@ function Sidebar() {
         { name: 'Products', path: '/' },
         { name: 'Contact', path: '/' },
         { name: 'About', path: '/' },
+        { name: 'Cv', path: '/Cv' },
     ];
 
 
