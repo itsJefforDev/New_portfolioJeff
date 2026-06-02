@@ -116,7 +116,7 @@ export default function CardsAbilities() {
 
   return (
     <div className="min-h-screen bg-radial-[at_50%_50%] from-violet-800 via-slate-900 to-slate-950 to-70% mt-25">
-      <h1 className="text-sky-200 text-3xl text-center mb-9">Mis competencias</h1>
+      <h1 className="text-sky-200 text-3xl text-center mb-9">My competences</h1>
       <div className="flex items-center justify-center gap-8 flex-wrap p-10">
         {usersData.map((user) => (
           <GlowCard key={user.id} user={user} />
