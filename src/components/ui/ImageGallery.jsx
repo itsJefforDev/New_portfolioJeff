@@ -10,44 +10,44 @@ const ImageGallery = () => {
     const [stopScroll, setStopScroll] = React.useState(false);
     const cardData = [
         {
-            title: "Unlock Your Creative Flow",
+            title: "react",
             image: images['../../assets/images/react.png'],
         },
         {
-            title: "Design Your Digital Future",
+            title: "angular",
             image: images['../../assets/images/angular.png'],
         },
         {
-            title: "Build with Passion, Ship with Pride",
+            title: "Spring boot",
             image: images['../../assets/images/spring boott.png'],
         },
         {
-            title: "Think Big, Code Smart",
+            title: "Laravel",
             image: images['../../assets/images/laravel.png'],
 
         },
         {
-            title: "Think Big, Code Smart",
+            title: "express.js",
             image: images['../../assets/images/express2.jpg'],
 
         },
         {
-            title: "Think Big, Code Smart",
+            title: "Node.js",
             image: images['../../assets/images/nodejs2.jpg'],
 
         },
         {
-            title: "Think Big, Code Smart",
+            title: "MySQL",
             image: images['../../assets/images/mysql.png'],
 
         },
         {
-            title: "Think Big, Code Smart",
+            title: "MongoDB",
             image: images['../../assets/images/mongodb2.png'],
 
         },
             {
-            title: "Think Big, Code Smart",
+            title: "LookerStudio",
             image: images['../../assets/images/lookerstudio.png'],
 
         },

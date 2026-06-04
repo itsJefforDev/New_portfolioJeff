@@ -4,7 +4,7 @@ import Reveal from "../components/ui/Reveal";
 
 export default function FeaturesSection() {
     return (
-        <section className="bg-violet-900/20 py-16 px-4 font-[Geist] bg-radial-[at_80%_25%] from-purple-950 to-slate-950 to-75%">
+        <section className="bg-violet-900/20 py-16 px-4 font-[Geist] bg-radial-[at_80%_25%] from-purple-950 to-slate-950 to-75% mb-5">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-9">
                     <span className="text-xs text-sky-200 bg-violet-500/30 rounded-full px-6 py-2">

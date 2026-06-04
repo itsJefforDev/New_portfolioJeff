@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import heroImage from "../../assets/images/jeff2.png";
 import code3 from "../../assets/images/code3.png";
 import Reveal from "./Reveal";
-
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -33,11 +34,11 @@ const HeroSection = () => {
 
             {/* Buttons */}
             <div className="flex items-center gap-4 mt-8 text-sm">
-              <button className="bg-indigo-600 hover:bg-indigo-700 text-white active:scale-95 rounded-md px-7 h-11 transition">
-                Get started
+              <button onClick={() => navigate("/Cv")} className="bg-indigo-600 hover:bg-indigo-700 text-white active:scale-95 rounded-md px-7 h-11 transition">
+                Download my CV
               </button>
 
-              <button className="flex items-center gap-2 border border-slate-600 active:scale-95 hover:bg-white/10 transition text-slate-600 rounded-md px-6 h-11">
+              {/* <button className="flex items-center gap-2 border border-slate-600 active:scale-95 hover:bg-white/10 transition text-slate-600 rounded-md px-6 h-11">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -54,7 +55,7 @@ const HeroSection = () => {
                 </svg>
 
                 <span>Watch demo</span>
-              </button>
+              </button> */}
             </div>
           </div>
         </Reveal>
