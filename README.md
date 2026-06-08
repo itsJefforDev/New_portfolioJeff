@@ -1,6 +1,6 @@
 # New_portfolioJeff
 
-Jeff's personal porffolio where you can find my professional informacion, projects, skills and more
+Jeff's personal porffolio where you can find my professional informacion, projects, skills, cv and more
 
 ## Technologies
 
