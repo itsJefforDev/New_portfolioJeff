@@ -6,6 +6,7 @@ import Button from "../components/ui/Button";
 import HeroSection from "../components/ui/HeroSection";
 import ImageGallery from "../components/ui/ImageGallery";
 import Reveal from "../components/ui/Reveal";
+import ToolsAccordion from "../components/home/ToolsAccordion"
 
 function Home() {
 
@@ -26,6 +27,8 @@ function Home() {
       <Reveal>
         <FeaturesSection />
       </Reveal>
+
+      <ToolsAccordion />
 
     </div>
   );
